@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Mfresh Auto-Refresh",
+  "version": "1.0",
+  "permissions": ["storage", "tabs", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icons/refresh.png"
+  }
+}

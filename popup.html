@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mfresh Auto-Refresh</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <span class="header-content">
+          <img class="logo animate-spin" src="icons/refresh.png" alt="Logo" />
+          <h1>Mfresh</h1>
+        </span>
+        <span>
+          on/off
+          <label class="switch">
+            <input type="checkbox" id="on-off-toggle" />
+            <span class="slider"></span>
+          </label>
+        </span>
+      </header>
+
+      <div id="countdown-container" class="container gradient-button">
+        <button class="heartbeat-button">
+          <span id="timer" class="timer">15</span>
+        </button>
+      </div>
+      <main id="main-content">
+        <div id="interval-settings">
+          <h2>Set Interval</h2>
+          <span class="settings-container">
+            <button class="interval-btn" data-interval="15">15 sec</button>
+            <button class="interval-btn" data-interval="30">30 sec</button>
+            <button class="interval-btn" data-interval="60">1 min</button>
+            <button class="interval-btn" data-interval="120">2 min</button>
+          </span>
+        </div>
+
+        <div id="custom-interval-settings">
+          <h2>Set Custom Interval</h2>
+          <span class="interval-settings fullscreen">
+            <input type="number" id="min-interval" placeholder="Min seconds" />
+            <input type="number" id="max-interval" placeholder="Max seconds" />
+          </span>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <p>© 2024 Mfresh</p>
+      </footer>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
