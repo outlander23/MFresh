@@ -29,7 +29,6 @@
       </div>
       <main id="main-content">
         <div id="interval-settings">
-          <h2>Set Interval</h2>
           <span class="settings-container">
             <button class="interval-btn" data-interval="15">15 sec</button>
             <button class="interval-btn" data-interval="30">30 sec</button>
@@ -39,8 +38,14 @@
         </div>
 
         <div id="custom-interval-settings">
-          <h2>Set Custom Interval</h2>
-          <span class="interval-settings fullscreen">
+          <label class="switch">
+            <input type="checkbox" id="on-random-toggle" />
+            <span class="slider"></span>
+
+            <h2 style="margin-left: 10px">Random Interval</h2>
+          </label>
+
+          <span class="interval-settings">
             <input type="number" id="min-interval" placeholder="Min seconds" />
             <input type="number" id="max-interval" placeholder="Max seconds" />
           </span>

@@ -31,7 +31,7 @@ header {
   padding: 15px 20px;
   background: #ffffff;
   border-bottom: 2px solid #ddd;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   transition: background-color 0.3s, border-bottom 0.3s;
 }
 
@@ -337,4 +337,67 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%; /* Adjust height as needed */
+}
+/* General styles for input boxes */
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  margin: 10px;
+}
+
+/* Focus state styles */
+input[type="number"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Hover state styles */
+input[type="number"]:hover {
+  border-color: #0056b3;
+}
+
+/* Placeholder text styles */
+input[type="number"]::placeholder {
+  color: #aaa;
+}
+
+/* Fullscreen container styles */
+.interval-settings.fullscreen {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+  /* Responsive adjustments for smaller screens */
+  .interval-settings.fullscreen {
+    flex-direction: column;
+  }
+
+  input[type="number"] {
+    width: calc(100% - 20px);
+  }
+}
+
+.block-overlay {
+  left: 0;
+  width: 100%;
+  height: calc(100% - 60px); /* Adjust based on header height */
+  background-color: rgba(13, 13, 14, 0.212);
+  z-index: 10;
+  pointer-events: none;
+  border-radius: 5px;
 }
