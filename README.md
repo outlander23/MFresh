@@ -1,5 +1,4 @@
-# Mfresh
-# Simple,Safe and open source Auto Refresher Chrome Extension
+# Mfresh - Simple,Safe and open source Auto Refresher Chrome Extension
 
 A lightweight, secure, and open-source Chrome extension designed to automatically refresh your active tab. Perfect for keeping web pages up-to-date without manual intervention. Whether you need a consistent refresh rate or prefer random intervals, this extension provides a flexible solution with an easy-to-use interface and support for dark mode.
 <br>
