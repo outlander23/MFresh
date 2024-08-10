@@ -5,9 +5,9 @@ A lightweight, secure, and open-source Chrome extension designed to automaticall
 <br>
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px; padding: 20px; background-color: #f8f9fa; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
 
-<img src="https://github.com/user-attachments/assets/2a5fc34f-25c6-4858-8aed-88b54d261367" alt="Screenshot 1" style="width: 500px; height: 600px; object-fit: cover; border-radius: 8px; transition: transform 0.3s ease, box-shadow 0.3s ease;" />
+<img src="https://github.com/user-attachments/assets/2a5fc34f-25c6-4858-8aed-88b54d261367" alt="Screenshot 1" style="width: 400px; height: 500px; object-fit: cover; border-radius: 8px; transition: transform 0.3s ease, box-shadow 0.3s ease;" />
 
-<img src="https://github.com/user-attachments/assets/24797a54-9cd1-4b05-9a24-567b35f26bae" alt="Screenshot 2" style="width: 500px; height: 600px; object-fit: cover; border-radius: 8px; transition: transform 0.3s ease, box-shadow 0.3s ease;" />
+<img src="https://github.com/user-attachments/assets/24797a54-9cd1-4b05-9a24-567b35f26bae" alt="Screenshot 2" style="width: 400px; height: 500px; object-fit: cover; border-radius: 8px; transition: transform 0.3s ease, box-shadow 0.3s ease;" />
 
 </div>
 
